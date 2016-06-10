@@ -155,6 +155,5 @@ def QFT_Simulation(N, qubits, num_peaks):
     print "\nDONE! ({:.3f} s)".format(t2 - t0)
     sys.stdout.flush()
 
-
     return
 
