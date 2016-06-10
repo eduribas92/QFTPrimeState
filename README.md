@@ -5,6 +5,5 @@ Final Bachelor Project, Faculty of Physics, University of Barcelona, Spain
 
 ## Usage
 
-  import QFTPrimeState as QFTPS
-  
-  QFTPS.QFT_Simulation(1000, 10, True)
+  `import QFTPrimeState as QFTPS`
+  `QFTPS.QFT_Simulation(1000, 10, True)`
