@@ -149,6 +149,8 @@ def QFT_Simulation(N, qubits, num_peaks):
     plt.axis( [ -limit_X , N + limit_X , -limit_Y , maxWeight_normalized_sorted[-1][1] + limit_Y ], figsize=(8, 10), dpi=500)
     plt.xlabel("Register")
     plt.ylabel("Probability")
+    position = N/4
+    plt.axvline(x=position, color = 'r')
     plt.show()
     
     t2 = time.time()
